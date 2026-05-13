@@ -1,0 +1,42 @@
+{
+  "businessName": "Jubilee's Oven Delight",
+  "industry": "Food Manufacturing & Bakery",
+  "tone": "warm and inviting",
+  "tagline": "Freshly Baked Perfection, Delivered with Love",
+  "sections": [
+    {
+      "id": "hero",
+      "name": "Hero",
+      "copy": "Welcome to Jubilee's Oven Delight – Where Every Bite is a Celebration! We are Enugu's trusted bakery, crafting premium pastries, cakes, bread, and confectioneries with the finest ingredients and genuine care. From birthdays to corporate events, weddings to everyday treats, we bake joy into every order. Experience the warmth of freshly baked goodness, made just for you.",
+      "imagePrompt": "A warm, inviting bakery scene showing a beautifully arranged display of fresh golden pastries, layered cakes with elegant frosting, artisan bread loaves, and colorful confectioneries on rustic wooden shelves, with soft natural lighting streaming through windows, flour dust particles floating in the air, and a cozy Nigerian bakery atmosphere with traditional and modern baked goods",
+      "layout": "centered"
+    },
+    {
+      "id": "about",
+      "name": "About Us",
+      "copy": "Jubilee's Oven Delight is a premier bakery and confectionery manufacturer located in the heart of Enugu North. We specialize in creating exceptional baked goods that bring smiles to faces and sweetness to life's special moments. Our skilled bakers combine traditional recipes with modern techniques to produce everything from soft, fluffy bread to intricately decorated celebration cakes. We pride ourselves on using quality ingredients, maintaining strict hygiene standards, and delivering products that exceed expectations. Whether you're planning a grand celebration or simply craving something delicious, Jubilee's Oven Delight is your go-to destination for baked perfection. We serve homes, offices, schools, and event centers across Enugu with reliable delivery and exceptional customer service.",
+      "imagePrompt": "Interior of a clean, modern Nigerian bakery production facility showing professional bakers in white uniforms and hairnets carefully decorating cakes and arranging pastries, stainless steel equipment, organized workstations with fresh ingredients, ambient warm lighting, and glimpses of finished products ready for delivery, conveying professionalism and quality craftsmanship",
+      "layout": "split"
+    },
+    {
+      "id": "services",
+      "name": "Our Products & Services",
+      "copy": "**Celebration Cakes**: Custom birthday cakes, wedding cakes, anniversary cakes – beautifully designed to match your theme and taste preferences.\n\n**Pastries & Confectioneries**: Meat pies, sausage rolls, doughnuts, chin-chin, puff-puff, cookies, and an array of sweet treats perfect for any occasion.\n\n**Fresh Bread**: Soft white bread, wheat bread, agege bread, and specialty loaves baked fresh daily.\n\n**Corporate & Event Catering**: Bulk orders for conferences, seminars, parties, and corporate events with timely delivery.\n\n**Custom Orders**: Tell us your vision and we'll bake it to life – from character cakes for kids to elegant dessert tables for weddings.\n\n**Wholesale Supply**: We supply restaurants, hotels, schools, and retail shops with consistent quality at competitive prices.",
+      "imagePrompt": "A vibrant flat-lay composition showcasing diverse Nigerian bakery products including a beautifully decorated multi-tier celebration cake, golden meat pies, glazed doughnuts with sprinkles, fresh bread loaves, colorful cookies, crispy chin-chin in bowls, and elegant pastries arranged on wooden boards and cake stands, photographed from above with natural lighting and appetizing colors",
+      "layout": "grid"
+    },
+    {
+      "id": "contact",
+      "name": "Place Your Order",
+      "copy": "Ready to taste the difference? Contact Jubilee's Oven Delight today! We're located at No 12c Umunevo Off Obiagu Road, Enugu North, and we're happy to discuss your requirements, provide quotes, and arrange convenient delivery times. Whether it's a small order or a large event, we're here to serve you with excellence. Call us, send a WhatsApp message, or visit our bakery – we can't wait to bake something special for you!",
+      "imagePrompt": "A welcoming storefront of a Nigerian bakery with 'Jubilee's Oven Delight' signage, showing a friendly staff member at the entrance holding a beautiful cake box, with visible display windows showcasing colorful baked goods, set in a clean Enugu street environment with natural daylight, greenery, and an inviting atmosphere that encourages customers to visit",
+      "layout": "centered"
+    }
+  ],
+  "contact": {
+    "phone": "+234 904 265 3516 / +234 813 595 5703",
+    "email": "orders@jubileesovendelight.com",
+    "address": "No 12c Umunevo Off Obiagu Road, Enugu North, Enugu State, Nigeria",
+    "whatsapp": "https://wa.me/2349042653516"
+  }
+}
