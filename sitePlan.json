@@ -1,41 +1,48 @@
 {
-  "businessName": "Jubilee's Oven Delight",
-  "industry": "Food Manufacturing & Bakery",
-  "tone": "warm and inviting",
-  "tagline": "Freshly Baked Perfection, Delivered with Love",
+  "businessName": "Chainvestment Reinsurance Limited",
+  "industry": "Financial Services - Reinsurance",
+  "tone": "formal, authoritative, professional",
+  "tagline": "Strengthening Your Risk Foundation",
   "sections": [
     {
       "id": "hero",
       "name": "Hero",
-      "copy": "Welcome to Jubilee's Oven Delight – Where Every Bite is a Celebration! We are Enugu's trusted bakery, crafting premium pastries, cakes, bread, and confectioneries with the finest ingredients and genuine care. From birthdays to corporate events, weddings to everyday treats, we bake joy into every order. Experience the warmth of freshly baked goodness, made just for you.",
-      "imagePrompt": "A warm, inviting bakery scene showing a beautifully arranged display of fresh golden pastries, layered cakes with elegant frosting, artisan bread loaves, and colorful confectioneries on rustic wooden shelves, with soft natural lighting streaming through windows, flour dust particles floating in the air, and a cozy Nigerian bakery atmosphere with traditional and modern baked goods",
+      "copy": "Chainvestment Reinsurance Limited\n\nStrengthening Your Risk Foundation\n\nAs a leading reinsurance provider in Nigeria, we deliver comprehensive risk underwriting solutions that protect your business assets and ensure financial stability. With deep expertise in trade finance and risk management, we are your trusted partner in navigating complex insurance landscapes across diverse industries.",
+      "imagePrompt": "Professional modern Nigerian office building exterior with glass facade, blue sky, corporate reinsurance headquarters in Enugu, sleek architecture, business district atmosphere, photorealistic, daylight, professional photography style",
       "layout": "centered"
     },
     {
       "id": "about",
       "name": "About Us",
-      "copy": "Jubilee's Oven Delight is a premier bakery and confectionery manufacturer located in the heart of Enugu North. We specialize in creating exceptional baked goods that bring smiles to faces and sweetness to life's special moments. Our skilled bakers combine traditional recipes with modern techniques to produce everything from soft, fluffy bread to intricately decorated celebration cakes. We pride ourselves on using quality ingredients, maintaining strict hygiene standards, and delivering products that exceed expectations. Whether you're planning a grand celebration or simply craving something delicious, Jubilee's Oven Delight is your go-to destination for baked perfection. We serve homes, offices, schools, and event centers across Enugu with reliable delivery and exceptional customer service.",
-      "imagePrompt": "Interior of a clean, modern Nigerian bakery production facility showing professional bakers in white uniforms and hairnets carefully decorating cakes and arranging pastries, stainless steel equipment, organized workstations with fresh ingredients, ambient warm lighting, and glimpses of finished products ready for delivery, conveying professionalism and quality craftsmanship",
+      "copy": "About Chainvestment Reinsurance Limited\n\nChainvestment Reinsurance Limited (also trading as Chainvestment Risk Underwriting Co) is a specialist reinsurance firm committed to providing robust risk transfer solutions for insurance companies and corporate entities across Nigeria.\n\nHeadquartered in Enugu North, we bring specialized knowledge in trade finance and risk assessment to deliver tailored reinsurance products that meet the evolving needs of the Nigerian financial services sector. Our approach combines rigorous underwriting standards with responsive client service, ensuring your risk portfolio is managed with precision and expertise.\n\nWe understand that reinsurance is not just about transferring risk—it's about building sustainable partnerships that strengthen the entire insurance value chain. Whether you're an insurer seeking capacity support or a corporate entity requiring complex risk solutions, Chainvestment stands ready to provide the financial backing and technical expertise you need.",
+      "imagePrompt": "Professional Nigerian business handshake in modern conference room, diverse team of insurance professionals reviewing documents, Enugu office setting, corporate environment, trust and partnership theme, photorealistic, natural lighting",
       "layout": "split"
     },
     {
       "id": "services",
-      "name": "Our Products & Services",
-      "copy": "**Celebration Cakes**: Custom birthday cakes, wedding cakes, anniversary cakes – beautifully designed to match your theme and taste preferences.\n\n**Pastries & Confectioneries**: Meat pies, sausage rolls, doughnuts, chin-chin, puff-puff, cookies, and an array of sweet treats perfect for any occasion.\n\n**Fresh Bread**: Soft white bread, wheat bread, agege bread, and specialty loaves baked fresh daily.\n\n**Corporate & Event Catering**: Bulk orders for conferences, seminars, parties, and corporate events with timely delivery.\n\n**Custom Orders**: Tell us your vision and we'll bake it to life – from character cakes for kids to elegant dessert tables for weddings.\n\n**Wholesale Supply**: We supply restaurants, hotels, schools, and retail shops with consistent quality at competitive prices.",
-      "imagePrompt": "A vibrant flat-lay composition showcasing diverse Nigerian bakery products including a beautifully decorated multi-tier celebration cake, golden meat pies, glazed doughnuts with sprinkles, fresh bread loaves, colorful cookies, crispy chin-chin in bowls, and elegant pastries arranged on wooden boards and cake stands, photographed from above with natural lighting and appetizing colors",
+      "name": "Our Services",
+      "copy": "Reinsurance Solutions Tailored to Your Needs\n\nTreaty Reinsurance\nStructured reinsurance agreements providing automatic coverage for defined classes of business, offering predictable capacity and streamlined claims management for insurance partners.\n\nFacultative Reinsurance\nCustomized risk assessment and coverage for individual policies or specific risks that fall outside treaty arrangements, with flexible terms suited to unique exposure profiles.\n\nTrade Finance Risk Underwriting\nSpecialized underwriting services for trade finance instruments including letters of credit, performance bonds, and supply chain finance facilities, backed by deep sector expertise.\n\nCorporate Risk Solutions\nBespoke reinsurance structures for large corporate clients with complex risk profiles, including captive insurance support and alternative risk transfer mechanisms.\n\nRetrocession Services\nStrategic risk distribution solutions for insurance and reinsurance companies seeking to optimize their capital efficiency and risk retention strategies.\n\nClaims Management Support\nExpert claims handling and settlement services that ensure fair, prompt resolution while maintaining the integrity of reinsurance contracts.",
+      "imagePrompt": "Modern Nigerian financial district with insurance documents, charts showing risk distribution, professional calculator and business analytics on desk, Enugu business environment, corporate finance aesthetic, photorealistic, professional lighting",
       "layout": "grid"
     },
     {
+      "id": "why-choose",
+      "name": "Why Choose Us",
+      "copy": "Why Partner with Chainvestment?\n\nSpecialized Trade Finance Expertise\nOur leadership brings hands-on experience in trade finance operations, enabling us to understand and underwrite complex commercial risks with unmatched precision.\n\nLocal Market Knowledge\nDeep understanding of the Nigerian business environment, regulatory landscape, and emerging risk trends across key economic sectors.\n\nFinancial Stability\nRobust capital base and prudent risk management practices ensure we honor our reinsurance commitments when you need us most.\n\nResponsive Service\nDedicated account management and rapid turnaround times on quotations, policy issuance, and claims processing.\n\nIndustry Partnerships\nStrong relationships with international reinsurance markets, providing access to global capacity and expertise when local solutions require enhancement.\n\nTailored Solutions\nWe don't offer one-size-fits-all products. Every reinsurance structure is designed around your specific risk profile and business objectives.",
+      "imagePrompt": "Confident Nigerian insurance professionals in business attire standing in modern Enugu office, financial charts and graphs on digital displays, professional team portrait, trust and expertise conveyed, photorealistic, corporate photography style",
+      "layout": "cards"
+    },
+    {
       "id": "contact",
-      "name": "Place Your Order",
-      "copy": "Ready to taste the difference? Contact Jubilee's Oven Delight today! We're located at No 12c Umunevo Off Obiagu Road, Enugu North, and we're happy to discuss your requirements, provide quotes, and arrange convenient delivery times. Whether it's a small order or a large event, we're here to serve you with excellence. Call us, send a WhatsApp message, or visit our bakery – we can't wait to bake something special for you!",
-      "imagePrompt": "A welcoming storefront of a Nigerian bakery with 'Jubilee's Oven Delight' signage, showing a friendly staff member at the entrance holding a beautiful cake box, with visible display windows showcasing colorful baked goods, set in a clean Enugu street environment with natural daylight, greenery, and an inviting atmosphere that encourages customers to visit",
-      "layout": "centered"
+      "name": "Contact Us",
+      "copy": "Get in Touch with Chainvestment Reinsurance\n\nReady to discuss your reinsurance needs? Our team is available to provide expert consultation on risk underwriting solutions tailored to your business.\n\nOffice Address\nNo 12c Umunevo Off Obiagu Road\nEnugu North, Enugu State\nNigeria\n\nPhone Numbers\n+234 904 265 3516\n+234 813 595 5703\n\nBusiness Hours\nMonday - Friday: 8:00 AM - 5:00 PM\nSaturday: 9:00 AM - 2:00 PM\n\nWhether you're an insurance company seeking treaty capacity, a corporate client requiring specialized risk solutions, or a broker exploring reinsurance options for your clients, we invite you to reach out. Our experienced underwriters are ready to provide the strategic risk management support your business deserves.",
+      "imagePrompt": "Professional Nigerian office reception area in Enugu, modern corporate interior with comfortable seating, welcoming atmosphere, business meeting space, photorealistic, warm professional lighting, financial services environment",
+      "layout": "split"
     }
   ],
   "contact": {
-    "phone": "+234 904 265 3516 / +234 813 595 5703",
-    "email": "orders@jubileesovendelight.com",
+    "phone": "+234 904 265 3516",
+    "email": "info@chainvestment.org",
     "address": "No 12c Umunevo Off Obiagu Road, Enugu North, Enugu State, Nigeria",
     "whatsapp": "https://wa.me/2349042653516"
   }
