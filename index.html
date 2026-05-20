@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jubilee's Oven Delight - Freshly Baked Perfection, Delivered with Love</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600;700&family=Figtree:wght@300;400;500&display=swap">
+    <title>Chainvestment Reinsurance Limited - Strengthening Your Risk Foundation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400&family=Manrope:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
         :root {
-            --color-primary: #0a162b;
-            --color-accent: #f96a16;
-            --color-bg: #F8F8F8;
-            --color-text: #0A1428;
-            --color-surface: #18253f;
-            --color-secondary-accent: #06bb58;
-            --font-display: 'Kanit', sans-serif;
-            --font-body: 'Figtree', sans-serif;
-            --border-radius: 12px;
+            --color-primary: #17120d;
+            --color-accent: #a35f39;
+            --color-bg: #F8F4EE;
+            --color-text: #1A1410;
+            --color-surface: #201913;
+            --color-secondary-accent: #8d9d9f;
+            --font-display: 'EB Garamond', serif;
+            --font-body: 'Manrope', sans-serif;
+            --border-radius: 2px;
         }
 
         * {
@@ -32,12 +34,14 @@
             font-family: var(--font-body);
             color: var(--color-text);
             background-color: var(--color-bg);
-            line-height: 1.6;
+            line-height: 1.7;
+            font-weight: 400;
         }
 
         h1, h2, h3, h4, h5, h6 {
             font-family: var(--font-display);
             font-weight: 700;
+            line-height: 1.2;
         }
 
         @keyframes fadeUp {
@@ -55,11 +59,11 @@
         nav {
             position: sticky;
             top: 0;
-            background: rgba(248, 248, 248, 0.95);
+            background: rgba(248, 244, 238, 0.95);
             backdrop-filter: blur(10px);
             z-index: 1000;
-            padding: 1rem 0;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 1.25rem 0;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
         }
 
         .nav-container {
@@ -76,18 +80,20 @@
             font-size: 1.5rem;
             font-weight: 700;
             color: var(--color-primary);
+            text-decoration: none;
         }
 
         .nav-links {
             display: flex;
             list-style: none;
-            gap: 2rem;
+            gap: 2.5rem;
         }
 
         .nav-links a {
             text-decoration: none;
             color: var(--color-text);
             font-weight: 500;
+            font-size: 0.95rem;
             transition: color 0.3s ease;
         }
 
@@ -176,19 +182,14 @@
             animation: fadeUp 0.6s ease forwards;
         }
 
-        .hero-bg {
+        .hero-image {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            z-index: 0;
-        }
-
-        .hero-bg img {
-            width: 100%;
-            height: 100%;
             object-fit: cover;
+            z-index: -2;
         }
 
         .hero-overlay {
@@ -198,54 +199,55 @@
             width: 100%;
             height: 100%;
             background: rgba(0, 0, 0, 0.55);
-            z-index: 1;
+            z-index: -1;
         }
 
         .hero-content {
-            position: relative;
-            z-index: 2;
             max-width: 900px;
             padding: 0 2rem;
+            z-index: 1;
         }
 
         .hero-content h1 {
             font-size: 3.5rem;
-            margin-bottom: 1rem;
-            text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+            margin-bottom: 1.5rem;
+            font-weight: 700;
         }
 
         .hero-content .tagline {
-            font-size: 1.5rem;
+            font-size: 1.75rem;
             margin-bottom: 2rem;
-            font-weight: 300;
+            font-weight: 500;
+            font-family: var(--font-display);
+            color: var(--color-accent);
         }
 
         .hero-content p {
-            font-size: 1.1rem;
-            margin-bottom: 2rem;
+            font-size: 1.15rem;
+            margin-bottom: 2.5rem;
             line-height: 1.8;
         }
 
         .cta-button {
             display: inline-block;
-            padding: 1rem 2.5rem;
             background: var(--color-accent);
             color: white;
+            padding: 1rem 2.5rem;
             text-decoration: none;
             border-radius: var(--border-radius);
-            font-weight: 600;
-            font-size: 1.1rem;
+            font-weight: 500;
+            font-size: 1.05rem;
             transition: all 0.3s ease;
-            box-shadow: 4px 4px 0 rgba(0,0,0,0.2);
+            box-shadow: 0 4px 16px rgba(163, 95, 57, 0.3);
         }
 
         .cta-button:hover {
-            background: #d85a0d;
+            background: #8d4f2f;
             transform: translateY(-2px);
-            box-shadow: 6px 6px 0 rgba(0,0,0,0.2);
+            box-shadow: 0 6px 20px rgba(163, 95, 57, 0.4);
         }
 
-        /* Section Styling */
+        /* Section Styles */
         section {
             padding: 80px 2rem;
         }
@@ -256,9 +258,15 @@
         }
 
         section h2 {
-            font-size: 2.5rem;
+            font-size: 2.75rem;
             margin-bottom: 1rem;
             color: var(--color-primary);
+        }
+
+        section > .container > p:first-of-type {
+            font-size: 1.15rem;
+            margin-bottom: 3rem;
+            color: var(--color-secondary-accent);
         }
 
         /* About Section */
@@ -271,27 +279,25 @@
         .about-content {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 3rem;
+            gap: 4rem;
             align-items: center;
         }
 
         .about-image {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
             border-radius: var(--border-radius);
-            overflow: hidden;
-            box-shadow: 8px 8px 0 var(--color-accent);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
         }
 
-        .about-image img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
+        .about-text h2 {
+            margin-bottom: 1.5rem;
         }
 
         .about-text p {
-            font-size: 1.05rem;
+            margin-bottom: 1.5rem;
             line-height: 1.8;
-            margin-bottom: 1rem;
         }
 
         /* Services Section */
@@ -300,135 +306,144 @@
             animation-delay: 0.2s;
         }
 
-        .services-intro {
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-
         .services-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 2rem;
-            margin-top: 2rem;
+            margin-top: 3rem;
         }
 
         .service-card {
             background: white;
-            padding: 2rem;
+            padding: 2.5rem;
             border-radius: var(--border-radius);
-            box-shadow: 6px 6px 0 var(--color-surface);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
             transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: var(--color-accent);
+            border-radius: var(--border-radius) 0 0 var(--border-radius);
+            opacity: 0.3;
+            transition: opacity 0.3s ease;
         }
 
         .service-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 8px 8px 0 var(--color-surface);
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+        }
+
+        .service-card:hover::before {
+            opacity: 1;
         }
 
         .service-card h3 {
-            color: var(--color-accent);
-            margin-bottom: 1rem;
             font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--color-primary);
         }
 
         .service-card p {
+            color: var(--color-text);
             line-height: 1.7;
         }
 
-        /* Contact Section */
-        #contact {
-            background: var(--color-primary);
-            color: white;
-            text-align: center;
+        /* Why Choose Section */
+        #why-choose {
+            background: white;
             animation: fadeUp 0.6s ease forwards;
             animation-delay: 0.3s;
         }
 
-        #contact h2 {
-            color: white;
+        .why-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2.5rem;
+            margin-top: 3rem;
+        }
+
+        .why-card {
+            background: var(--color-bg);
+            padding: 2.5rem;
+            border-radius: var(--border-radius);
+            border: 1px solid rgba(163, 95, 57, 0.15);
+            transition: all 0.3s ease;
+        }
+
+        .why-card:hover {
+            border-color: var(--color-accent);
+            box-shadow: 0 8px 24px rgba(163, 95, 57, 0.15);
+        }
+
+        .why-card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+            color: var(--color-accent);
+        }
+
+        .why-card p {
+            line-height: 1.8;
+        }
+
+        /* Contact Section */
+        #contact {
+            animation: fadeUp 0.6s ease forwards;
+            animation-delay: 0.4s;
         }
 
         .contact-content {
-            max-width: 800px;
-            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            margin-top: 3rem;
         }
 
-        .contact-content p {
-            font-size: 1.1rem;
-            line-height: 1.8;
+        .contact-info h3 {
+            font-size: 1.75rem;
+            margin-bottom: 1.5rem;
+            color: var(--color-primary);
+        }
+
+        .contact-detail {
             margin-bottom: 2rem;
         }
 
-        .contact-details {
-            display: flex;
-            flex-direction: column;
-            gap: 1.5rem;
-            margin: 2rem 0;
-        }
-
-        .contact-item {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 1rem;
+        .contact-detail h4 {
             font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: var(--color-accent);
+            font-family: var(--font-body);
+            font-weight: 500;
         }
 
-        .contact-item a {
-            color: white;
+        .contact-detail p {
+            line-height: 1.8;
+        }
+
+        .contact-detail a {
+            color: var(--color-text);
             text-decoration: none;
             transition: color 0.3s ease;
         }
 
-        .contact-item a:hover {
+        .contact-detail a:hover {
             color: var(--color-accent);
         }
 
-        .contact-buttons {
-            display: flex;
-            gap: 1rem;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin-top: 2rem;
-        }
-
-        .contact-btn {
-            padding: 1rem 2rem;
+        .contact-image {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
             border-radius: var(--border-radius);
-            text-decoration: none;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            box-shadow: 4px 4px 0 rgba(0,0,0,0.3);
-        }
-
-        .contact-btn.phone {
-            background: var(--color-accent);
-            color: white;
-        }
-
-        .contact-btn.phone:hover {
-            background: #d85a0d;
-            transform: translateY(-2px);
-        }
-
-        .contact-btn.whatsapp {
-            background: #25D366;
-            color: white;
-        }
-
-        .contact-btn.whatsapp:hover {
-            background: #20ba5a;
-            transform: translateY(-2px);
-        }
-
-        .contact-btn.email {
-            background: white;
-            color: var(--color-primary);
-        }
-
-        .contact-btn.email:hover {
-            background: var(--color-bg);
-            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
         }
 
         /* WhatsApp Floating Button */
@@ -436,35 +451,61 @@
             position: fixed;
             bottom: 30px;
             right: 30px;
-            background: #25D366;
-            color: white;
             width: 60px;
             height: 60px;
+            background: #25D366;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 2rem;
-            box-shadow: 4px 4px 12px rgba(0,0,0,0.3);
+            box-shadow: 0 4px 16px rgba(37, 211, 102, 0.4);
             z-index: 1000;
             transition: all 0.3s ease;
             text-decoration: none;
         }
 
         .whatsapp-float:hover {
-            background: #20ba5a;
             transform: scale(1.1);
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
+        }
+
+        .whatsapp-float svg {
+            width: 32px;
+            height: 32px;
+            fill: white;
         }
 
         /* Footer */
         footer {
             background: var(--color-surface);
-            color: white;
-            text-align: center;
+            color: var(--color-bg);
             padding: 2rem;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 0.95rem;
         }
 
         /* Responsive */
+        @media (max-width: 1024px) {
+            section {
+                padding: 60px 2rem;
+            }
+
+            .hero-content h1 {
+                font-size: 2.75rem;
+            }
+
+            .hero-content .tagline {
+                font-size: 1.5rem;
+            }
+
+            section h2 {
+                font-size: 2.25rem;
+            }
+        }
+
         @media (max-width: 768px) {
             .nav-links {
                 display: none;
@@ -474,40 +515,44 @@
                 display: flex;
             }
 
+            section {
+                padding: 48px 1.5rem;
+            }
+
             .hero-content h1 {
                 font-size: 2rem;
             }
 
             .hero-content .tagline {
-                font-size: 1.1rem;
+                font-size: 1.25rem;
             }
 
             .hero-content p {
                 font-size: 1rem;
             }
 
-            section {
-                padding: 48px 1.5rem;
-            }
-
             section h2 {
-                font-size: 2rem;
+                font-size: 1.85rem;
             }
 
-            .about-content {
+            .about-content,
+            .contact-content {
                 grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .about-image,
+            .contact-image {
+                height: 350px;
             }
 
             .services-grid {
                 grid-template-columns: 1fr;
             }
 
-            .contact-buttons {
-                flex-direction: column;
-            }
-
-            .contact-btn {
-                width: 100%;
+            .why-cards {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
             }
 
             .whatsapp-float {
@@ -515,21 +560,11 @@
                 right: 20px;
                 width: 50px;
                 height: 50px;
-                font-size: 1.5rem;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .hero-content h1 {
-                font-size: 1.75rem;
             }
 
-            .nav-container {
-                padding: 0 1rem;
-            }
-
-            .mobile-menu {
-                width: 100%;
+            .whatsapp-float svg {
+                width: 26px;
+                height: 26px;
             }
         }
     </style>
@@ -538,12 +573,13 @@
     <!-- Navigation -->
     <nav>
         <div class="nav-container">
-            <div class="logo">Jubilee's Oven Delight</div>
+            <a href="#hero" class="logo">Chainvestment</a>
             <ul class="nav-links">
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#services">Products</a></li>
-                <li><a href="#contact">Order Now</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#why-choose">Why Choose Us</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="mobile-menu-btn">
                 <span></span>
@@ -558,22 +594,21 @@
         <ul>
             <li><a href="#hero">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#services">Products</a></li>
-            <li><a href="#contact">Order Now</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#why-choose">Why Choose Us</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </div>
 
     <!-- Hero Section -->
     <section id="hero">
-        <div class="hero-bg">
-            <img src="https://images.pexels.com/photos/29380150/pexels-photo-29380150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Bakery Display">
-        </div>
+        <img src="https://images.pexels.com/photos/13807472/pexels-photo-13807472.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Chainvestment Reinsurance" class="hero-image">
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h1>Jubilee's Oven Delight</h1>
-            <p class="tagline">Freshly Baked Perfection, Delivered with Love</p>
-            <p>Welcome to Jubilee's Oven Delight – Where Every Bite is a Celebration! We are Enugu's trusted bakery, crafting premium pastries, cakes, bread, and confectioneries with the finest ingredients and genuine care. From birthdays to corporate events, weddings to everyday treats, we bake joy into every order. Experience the warmth of freshly baked goodness, made just for you.</p>
-            <a href="#contact" class="cta-button">Place Your Order</a>
+            <h1>Chainvestment Reinsurance Limited</h1>
+            <p class="tagline">Strengthening Your Risk Foundation</p>
+            <p>As a leading reinsurance provider in Nigeria, we deliver comprehensive risk underwriting solutions that protect your business assets and ensure financial stability. With deep expertise in trade finance and risk management, we are your trusted partner in navigating complex insurance landscapes across diverse industries.</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
         </div>
     </section>
 
@@ -581,13 +616,12 @@
     <section id="about">
         <div class="container">
             <div class="about-content">
-                <div class="about-image">
-                    <img src="https://images.pexels.com/photos/20019416/pexels-photo-20019416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Bakery Production">
-                </div>
+                <img src="https://images.pexels.com/photos/30677596/pexels-photo-30677596.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="About Chainvestment" class="about-image">
                 <div class="about-text">
-                    <h2>About Us</h2>
-                    <p>Jubilee's Oven Delight is a premier bakery and confectionery manufacturer located in the heart of Enugu North. We specialize in creating exceptional baked goods that bring smiles to faces and sweetness to life's special moments. Our skilled bakers combine traditional recipes with modern techniques to produce everything from soft, fluffy bread to intricately decorated celebration cakes.</p>
-                    <p>We pride ourselves on using quality ingredients, maintaining strict hygiene standards, and delivering products that exceed expectations. Whether you're planning a grand celebration or simply craving something delicious, Jubilee's Oven Delight is your go-to destination for baked perfection. We serve homes, offices, schools, and event centers across Enugu with reliable delivery and exceptional customer service.</p>
+                    <h2>About Chainvestment Reinsurance Limited</h2>
+                    <p>Chainvestment Reinsurance Limited (also trading as Chainvestment Risk Underwriting Co) is a specialist reinsurance firm committed to providing robust risk transfer solutions for insurance companies and corporate entities across Nigeria.</p>
+                    <p>Headquartered in Enugu North, we bring specialized knowledge in trade finance and risk assessment to deliver tailored reinsurance products that meet the evolving needs of the Nigerian financial services sector. Our approach combines rigorous underwriting standards with responsive client service, ensuring your risk portfolio is managed with precision and expertise.</p>
+                    <p>We understand that reinsurance is not just about transferring risk—it's about building sustainable partnerships that strengthen the entire insurance value chain. Whether you're an insurer seeking capacity support or a corporate entity requiring complex risk solutions, Chainvestment stands ready to provide the financial backing and technical expertise you need.</p>
                 </div>
             </div>
         </div>
@@ -596,34 +630,64 @@
     <!-- Services Section -->
     <section id="services">
         <div class="container">
-            <div class="services-intro">
-                <h2>Our Products & Services</h2>
-                <p>From everyday essentials to show-stopping celebration cakes, we've got everything you need to make every moment delicious.</p>
-            </div>
+            <h2>Reinsurance Solutions Tailored to Your Needs</h2>
             <div class="services-grid">
                 <div class="service-card">
-                    <h3>Celebration Cakes</h3>
-                    <p>Custom birthday cakes, wedding cakes, anniversary cakes – beautifully designed to match your theme and taste preferences.</p>
+                    <h3>Treaty Reinsurance</h3>
+                    <p>Structured reinsurance agreements providing automatic coverage for defined classes of business, offering predictable capacity and streamlined claims management for insurance partners.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Pastries & Confectioneries</h3>
-                    <p>Meat pies, sausage rolls, doughnuts, chin-chin, puff-puff, cookies, and an array of sweet treats perfect for any occasion.</p>
+                    <h3>Facultative Reinsurance</h3>
+                    <p>Customized risk assessment and coverage for individual policies or specific risks that fall outside treaty arrangements, with flexible terms suited to unique exposure profiles.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Fresh Bread</h3>
-                    <p>Soft white bread, wheat bread, agege bread, and specialty loaves baked fresh daily.</p>
+                    <h3>Trade Finance Risk Underwriting</h3>
+                    <p>Specialized underwriting services for trade finance instruments including letters of credit, performance bonds, and supply chain finance facilities, backed by deep sector expertise.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Corporate & Event Catering</h3>
-                    <p>Bulk orders for conferences, seminars, parties, and corporate events with timely delivery.</p>
+                    <h3>Corporate Risk Solutions</h3>
+                    <p>Bespoke reinsurance structures for large corporate clients with complex risk profiles, including captive insurance support and alternative risk transfer mechanisms.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Custom Orders</h3>
-                    <p>Tell us your vision and we'll bake it to life – from character cakes for kids to elegant dessert tables for weddings.</p>
+                    <h3>Retrocession Services</h3>
+                    <p>Strategic risk distribution solutions for insurance and reinsurance companies seeking to optimize their capital efficiency and risk retention strategies.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Wholesale Supply</h3>
-                    <p>We supply restaurants, hotels, schools, and retail shops with consistent quality at competitive prices.</p>
+                    <h3>Claims Management Support</h3>
+                    <p>Expert claims handling and settlement services that ensure fair, prompt resolution while maintaining the integrity of reinsurance contracts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-choose">
+        <div class="container">
+            <h2>Why Partner with Chainvestment?</h2>
+            <div class="why-cards">
+                <div class="why-card">
+                    <h3>Specialized Trade Finance Expertise</h3>
+                    <p>Our leadership brings hands-on experience in trade finance operations, enabling us to understand and underwrite complex commercial risks with unmatched precision.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Local Market Knowledge</h3>
+                    <p>Deep understanding of the Nigerian business environment, regulatory landscape, and emerging risk trends across key economic sectors.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Financial Stability</h3>
+                    <p>Robust capital base and prudent risk management practices ensure we honor our reinsurance commitments when you need us most.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Responsive Service</h3>
+                    <p>Dedicated account management and rapid turnaround times on quotations, policy issuance, and claims processing.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Industry Partnerships</h3>
+                    <p>Strong relationships with international reinsurance markets, providing access to global capacity and expertise when local solutions require enhancement.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Tailored Solutions</h3>
+                    <p>We don't offer one-size-fits-all products. Every reinsurance structure is designed around your specific risk profile and business objectives.</p>
                 </div>
             </div>
         </div>
@@ -632,43 +696,47 @@
     <!-- Contact Section -->
     <section id="contact">
         <div class="container">
+            <h2>Get in Touch with Chainvestment Reinsurance</h2>
+            <p>Ready to discuss your reinsurance needs? Our team is available to provide expert consultation on risk underwriting solutions tailored to your business.</p>
             <div class="contact-content">
-                <h2>Place Your Order</h2>
-                <p>Ready to taste the difference? Contact Jubilee's Oven Delight today! We're located at No 12c Umunevo Off Obiagu Road, Enugu North, and we're happy to discuss your requirements, provide quotes, and arrange convenient delivery times. Whether it's a small order or a large event, we're here to serve you with excellence. Call us, send a WhatsApp message, or visit our bakery – we can't wait to bake something special for you!</p>
-                
-                <div class="contact-details">
-                    <div class="contact-item">
-                        <strong>📍 Address:</strong>
-                        <span>No 12c Umunevo Off Obiagu Road, Enugu North, Enugu State, Nigeria</span>
+                <div class="contact-info">
+                    <div class="contact-detail">
+                        <h4>Office Address</h4>
+                        <p>No 12c Umunevo Off Obiagu Road<br>Enugu North, Enugu State<br>Nigeria</p>
                     </div>
-                    <div class="contact-item">
-                        <strong>📞 Phone:</strong>
-                        <a href="tel:+2349042653516">+234 904 265 3516</a> / <a href="tel:+2348135955703">+234 813 595 5703</a>
+                    <div class="contact-detail">
+                        <h4>Phone Numbers</h4>
+                        <p><a href="tel:+2349042653516">+234 904 265 3516</a><br>
+                        <a href="tel:+2348135955703">+234 813 595 5703</a></p>
                     </div>
-                    <div class="contact-item">
-                        <strong>✉️ Email:</strong>
-                        <a href="mailto:orders@jubileesovendelight.com">orders@jubileesovendelight.com</a>
+                    <div class="contact-detail">
+                        <h4>Email</h4>
+                        <p><a href="mailto:info@chainvestment.org">info@chainvestment.org</a></p>
+                    </div>
+                    <div class="contact-detail">
+                        <h4>Business Hours</h4>
+                        <p>Monday - Friday: 8:00 AM - 5:00 PM<br>Saturday: 9:00 AM - 2:00 PM</p>
                     </div>
                 </div>
-
-                <div class="contact-buttons">
-                    <a href="tel:+2349042653516" class="contact-btn phone">Call Us Now</a>
-                    <a href="https://wa.me/2349042653516" class="contact-btn whatsapp" target="_blank">WhatsApp Us</a>
-                    <a href="mailto:orders@jubileesovendelight.com" class="contact-btn email">Send Email</a>
-                </div>
+                <img src="https://images.pexels.com/photos/36894415/pexels-photo-36894415.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Contact Us" class="contact-image">
             </div>
+            <p style="margin-top: 2rem; line-height: 1.8;">Whether you're an insurance company seeking treaty capacity, a corporate client requiring specialized risk solutions, or a broker exploring reinsurance options for your clients, we invite you to reach out. Our experienced underwriters are ready to provide the strategic risk management support your business deserves.</p>
         </div>
     </section>
 
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/2349042653516" class="whatsapp-float" target="_blank" aria-label="Contact us on WhatsApp">
+        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 0c-8.837 0-16 7.163-16 16 0 2.825 0.737 5.607 2.137 8.048l-2.137 7.952 7.933-2.127c2.42 1.37 5.173 2.127 8.067 2.127 8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 29.467c-2.482 0-4.908-0.646-7.07-1.87l-0.507-0.292-5.247 1.408 1.417-5.267-0.322-0.532c-1.316-2.18-2.011-4.692-2.011-7.247 0-7.384 6.009-13.393 13.393-13.393s13.393 6.009 13.393 13.393-6.009 13.393-13.393 13.393zM21.869 18.526c-0.323-0.162-1.915-0.945-2.212-1.053s-0.513-0.162-0.729 0.162c-0.216 0.323-0.837 1.053-1.026 1.269s-0.378 0.243-0.701 0.081c-0.323-0.162-1.365-0.503-2.599-1.604-0.961-0.857-1.609-1.916-1.798-2.239s-0.020-0.498 0.142-0.659c0.146-0.146 0.323-0.378 0.485-0.567s0.216-0.323 0.323-0.539c0.108-0.216 0.054-0.405-0.027-0.567s-0.729-1.759-1.001-2.407c-0.264-0.632-0.533-0.547-0.729-0.557-0.188-0.010-0.405-0.012-0.621-0.012s-0.567 0.081-0.864 0.405c-0.297 0.323-1.133 1.107-1.133 2.701s1.16 3.133 1.322 3.349c0.162 0.216 2.279 3.483 5.525 4.887 0.772 0.334 1.375 0.534 1.844 0.684 0.775 0.247 1.48 0.212 2.038 0.128 0.622-0.093 1.915-0.783 2.185-1.539s0.27-1.404 0.189-1.539c-0.081-0.135-0.297-0.216-0.621-0.378z"/>
+        </svg>
+    </a>
+
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Jubilee's Oven Delight. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2025 Chainvestment Reinsurance Limited. All rights reserved.</p>
+        </div>
     </footer>
-
-    <!-- WhatsApp Floating Button -->
-    <a href="https://wa.me/2349042653516" class="whatsapp-float" target="_blank" aria-label="Contact us on WhatsApp">
-        <span>💬</span>
-    </a>
 
     <script>
         // Mobile menu toggle
